@@ -10,8 +10,7 @@
 %   fs       (scalar) the sampling frequency of the original signal
 % OUTPUTS
 %   f0       (scalar) the estimated pitch
-% AUTHOR
-%   Naotoshi Seo, April 2008
+
 % SEE ALSO
 %   spCepstrum.m
 function [f0] = spPitchCepstrum(c, fs)
